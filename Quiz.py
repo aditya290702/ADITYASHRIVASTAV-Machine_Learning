@@ -1,4 +1,4 @@
-import pandas as pd
+ import pandas as pd
 
 Quizdf = pd.read_csv("Quiz.csv", delimiter=",", usecols=['Question', 'QuestionNo'])
 Answer = pd.read_csv("Quiz.csv", delimiter=",", usecols=['AnswerOption'])
@@ -32,7 +32,6 @@ def main():
     #OptionInput = input()
     x = PythonQuiz()
     print(x)
-
-
+ 
 if __name__=="__main__":
     main()
