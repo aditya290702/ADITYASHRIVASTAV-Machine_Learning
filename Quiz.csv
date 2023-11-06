@@ -1,0 +1,58 @@
+QuestionNo,Question,AnswerOption
+,,
+1,"Q1) Which keyword is used to exit a loop prematurely in Python?
+a) exit
+b) continue
+c) end
+d) break",d
+2,"Q2) How do you comment a single line in Python?
+a) // This is a comment
+b) /* This is a comment */
+c) # This is a comment
+d) <!-- This is a comment -->",c
+3,"Q3)Which of the following is NOT a valid Python data type?
+
+A) List
+B) string
+C) char
+D) Int",a
+4,"Q4) How do you check the length of a list in Python?
+
+A) size()
+B) len()
+C) count()
+D) length()",b
+5,"Q5)Which Python library is commonly used for data visualization?
+
+A) numpy
+B) pandas
+C) matplotlib
+D) scipy",c
+6,"Q6)Which of the following Python data structures is mutable(can be modified) ?
+
+A) List and Dictionary
+B) list
+C) string
+D) dictionary
+",a
+7,"Q7)Which of the following Python data structures is used to store key-value pairs?
+
+A) List
+B) Tuple
+C) Dictionary
+D) Set",c
+8,"Q8)Which of the following is NOT a valid Python comparison operator?
+
+A) =
+B) !!=
+C) <>
+D) All Of the Above",d
+9,"Q9)LIST = [""Joey"", ""Doesnt"", ""Share""]
+List.append(""Food"")
+print(List)  WHAT WILL BE THE OUTPUT ?????                A) [""Joey"",""Doesnt"",""Share"",""Food""]   B) Will throw an Error     C) [""Joey Doesnt Share Food""]     D) ""Joey"",""Doesnt"",""Share"",""Food""",b
+10,"Q10)Which operator is used for exponentiation in Python?
+
+A) **
+B) ^
+C) //
+D) *",a
