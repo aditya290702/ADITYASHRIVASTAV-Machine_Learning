@@ -33,20 +33,6 @@ def main():
     x = PythonQuiz()
     print(x)
 
-    print("Wanna Attempt Again????  TYPE Y or N")
-    Again = input()
-    if (Again == "Y"):
-        x = PythonQuiz()
-        print(x)
-    else:
-        if(Again == "N"):
-            print("Thankyou : )")
-    #try:
-    #    print(Again)
-    #except:
-    #    print('Need an Input in either Y or N but got', Again)
-
-    #    print("continue")
 
 if __name__=="__main__":
     main()
