@@ -52,5 +52,6 @@ from matplotlib import pyplot as plt
 x = np.linspace(-100,100,100)
 y = (x*x)
 plt.plot(x,y)
-plt.title('Question 4')
+plt.plot(x,np.gradient(y))
+plt.title('Question 5')
 plt.show()
