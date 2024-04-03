@@ -45,5 +45,29 @@ ax.plot(xx, yy, color='green', linestyle='--')
 ax.set_xlabel('X1^2')
 ax.set_ylabel('sqrt(2 * X1 * X2)')
 ax.set_zlabel('X2^2')
-
 plt.show()
+
+2)-----------------------------------------------------------------------
+
+import numpy as np
+
+def transform(x):
+    return np.array([x[0], x[1], 1])
+
+x1 = np.array([3, 6])
+x2 = np.array([10, 10])
+
+x1_transformed = transform(x1)
+x2_transformed = transform(x2)
+
+# Compute dot product in higher dimension
+dot_product_high_dim = np.dot(x1_transformed, x2_transformed)
+print("Dot Product in Higher Dimension:", dot_product_high_dim)
+
+def polynomial_kernel(a, b):
+    return a[0]**2 * b[0]**2 + 2*a[0]*b[0]*a[1]*b[1] + a[1]**2 * b[1]**2
+
+kernel_output = polynomial_kernel(x1, x2)
+print("Output of Polynomial Kernel Function:", kernel_output)
+
+
